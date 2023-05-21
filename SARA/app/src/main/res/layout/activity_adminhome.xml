@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adminhome">
+
+<Button
+        android:id="@+id/bnvteacher"
+        android:layout_marginTop="90dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="View Teacher"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:id="@+id/bnvstudent"
+        android:layout_marginTop="35dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="view student"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:id="@+id/bnvattendence"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="view attendence"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/bnadstudent"
+        android:layout_marginTop="35dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Add student"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:id="@+id/bnadteacher"
+        android:layout_marginTop="35dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="add teacher"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:id="@+id/bnaddsub"
+        android:layout_marginTop="35dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="add subject"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/bnlogout"
+        android:layout_marginTop="35dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="logout"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="50dp"/>
+
+</LinearLayout>

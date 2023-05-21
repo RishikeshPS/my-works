@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".addsubject">
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="22dp" />
+
+    <Spinner
+        android:id="@+id/department"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:text="Semester" />
+
+    <Spinner
+        android:id="@+id/semester"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:text="Subject" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/subject"/>
+    <Button
+        android:id="@+id/save"
+        android:layout_marginTop="40dp"
+        android:text="save"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+
+    <ListView
+        android:id="@+id/sublist"
+        android:layout_marginTop="30dp"
+        android:dividerHeight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

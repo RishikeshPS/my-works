@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_teacher">
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Teacher Details"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Name"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="60dp"/>
+
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:singleLine="true"
+                android:layout_marginLeft="60dp"
+                android:minHeight="48dp" />
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Department"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Spinner
+        android:id="@+id/txtdepartment"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="60dp" />
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="ID"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"/>
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:minHeight="48dp" />
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Phone Number"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"/>
+    <EditText
+        android:id="@+id/txtphoneno"
+        android:layout_width="250dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:minHeight="48dp" />
+    <TextView
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"/>
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginLeft="60dp"
+        android:minHeight="48dp"
+        android:inputType="textPassword" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnclear"
+            android:layout_width="140dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Clear" />
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:text="save" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ android:gravity="center"
+    tools:context=".adminhome">
+    <Button
+        android:id="@+id/bnvstudent"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="view student"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape" />
+
+    <Button
+        android:id="@+id/bnadstudent"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Add student"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape" />
+    <Button
+        android:id="@+id/bnvattendence"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="view attendence"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape" />
+    <Button
+        android:id="@+id/btnmark"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Mark attendance"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape" />
+
+    <Button
+        android:id="@+id/bnlogout"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="logout"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape" />
+
+</LinearLayout>

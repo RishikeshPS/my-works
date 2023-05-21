@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "148734165396",
+    "firebase_url": "https://database-521ca-default-rtdb.firebaseio.com",
+    "project_id": "database-521ca",
+    "storage_bucket": "database-521ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148734165396:android:f83ff45b927fc1ec46cf81",
+        "android_client_info": {
+          "package_name": "com.example.sara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148734165396-p629isu6aon9vnmp0majuktqsld1gko8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbJY_jHZNQJqhBRpmkzaBjOhhPPkCycU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148734165396-p629isu6aon9vnmp0majuktqsld1gko8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
