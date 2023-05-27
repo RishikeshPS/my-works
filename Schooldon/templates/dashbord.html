@@ -1,0 +1,106 @@
+<html>
+<style>
+h2 {text-align: center;color:#96bdd2;font-family: Garamond;font-size: 70px;}
+div{text-align: center;background-color:white;font-family:Arial;}
+body{text-align: center;}
+.bg-image{
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;}
+
+.contentblock{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%,-40%);
+  z-index: 2;
+  width: 48%;
+  padding: 0px;
+  text-align: center;
+  font-family:Arial;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  vertical-align: top;
+  width: 100%
+}
+tr {
+  height: 49px;
+}
+b a{
+  font-size:35px;
+  color: white;
+  text-decoration: none;
+}
+td a {
+  color: red;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  vertical-align: top;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+</style>
+	<head> <title> DON BOSKO SCHOOL</title> <head>
+	<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/contact">Contact Us</a>
+</div>
+
+
+	<div class="bg-image">
+	<img style="width:100%;" src="{{url_for('static', filename='408.jpg')}}" />
+
+
+	</div>
+	<div class="contentblock">
+	<body>
+		<h2>DON BOSKO SCHOOL</h2>
+		</br>
+		<b><a href="/create">Add student</a></b>
+	
+		
+			<table border='3' align='center' width=600px style="color:white">
+			<tr>
+			<th> Admission number </th>
+			<th> Name </th>
+			<th> Class</th>
+			<th> Edit </th>
+			<th> Delete </th>
+			</tr>
+			
+			{%for i in data%}			
+				<tr>
+				<td>{{i.0}}</td>
+				<td>{{i.1}}</td>	
+				<td>{{i.2}}</td>
+        <td><a href="/edit/{{i.0}}">EDIT</a></td>
+				<td><a href="/delete/{{i.0}}">DELETE</a></td>
+				</tr>
+			{% endfor %}
+			</table>
+	
+	</div>
+
+	</body>
+
+</html>
